@@ -1,0 +1,21 @@
+.TodoCounter-container {
+    padding: 30px;
+    margin-bottom: 18px;
+}
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.progres-container {
+    height: 10px;
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+}
+
+.progres-status {
+    height: 10px;
+    background-color: #61dafa;
+    border-radius: 5px;
+}

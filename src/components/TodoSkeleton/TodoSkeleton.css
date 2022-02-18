@@ -1,0 +1,28 @@
+.todoSkeleton {
+    height: 72px;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: preloadAnimation;
+    animation-timing-function: linear;
+    background: linear-gradient(
+        to right,
+        #fafafa 8%,
+        #dfdfdfa1 18%,
+        #fafafa 33%
+    );
+}
+
+@keyframes preloadAnimation {
+    0% {
+        background-position: -769px 0;
+    }
+    100% {
+        background-position: 769px 0;
+    }
+}
